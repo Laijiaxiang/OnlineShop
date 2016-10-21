@@ -1,11 +1,12 @@
  package com.hansan.fenxiao.service.impl;
  
  import com.hansan.fenxiao.dao.IBaseDao;
- import com.hansan.fenxiao.entities.Kami;
- import com.hansan.fenxiao.entities.Product;
- import com.hansan.fenxiao.service.IKamiService;
- import com.hansan.fenxiao.service.IProductService;
- import javax.annotation.Resource;
+import com.hansan.fenxiao.entities.Kami;
+import com.hansan.fenxiao.entities.Product;
+import com.hansan.fenxiao.service.IKamiService;
+import com.hansan.fenxiao.service.IProductService;
+
+import javax.annotation.Resource;
  import org.springframework.context.annotation.Scope;
  import org.springframework.stereotype.Repository;
  

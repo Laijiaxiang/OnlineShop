@@ -1,7 +1,8 @@
 package com.hansan.fenxiao.dao;
 
-import com.hansan.fenxiao.entities.Financial;
 import java.util.List;
+
+import com.hansan.fenxiao.entities.Financial;
 
 public abstract interface IFinancialDao extends IBaseDao<Financial>
 {

@@ -1,7 +1,8 @@
 package com.hansan.fenxiao.dao;
 
-import com.hansan.fenxiao.entities.ArticleCate;
 import java.util.List;
+
+import com.hansan.fenxiao.entities.ArticleCate;
 
 public abstract interface IArticleCateDao<T extends ArticleCate> extends IBaseDao<T>
 {

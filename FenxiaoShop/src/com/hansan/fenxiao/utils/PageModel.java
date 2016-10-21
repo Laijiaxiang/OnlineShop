@@ -36,19 +36,19 @@
  
    public String getPageStr(String path) {
      String str = "";
-     str = str + "µ±Ç°µÚ" + this.currentPage + "Ò³  ";
-     str = str + "¹²" + this.allCount + "Ìõ¼ÇÂ¼  ";
+     str = str + "ï¿½ï¿½Ç°ï¿½ï¿½" + this.currentPage + "Ò³  ";
+     str = str + "ï¿½ï¿½" + this.allCount + "ï¿½ï¿½ï¿½ï¿½Â¼  ";
      if (this.currentPage > 1) {
-       str = str + "<a href='" + path + "1'>Ê×Ò³</a> ";
+       str = str + "<a href='" + path + "1'>ï¿½ï¿½Ò³</a> ";
        int flontPage = this.currentPage - 1;
-       str = str + "<a href='" + path + flontPage + "'>ÉÏÒ»Ò³</a> ";
+       str = str + "<a href='" + path + flontPage + "'>ï¿½ï¿½Ò»Ò³</a> ";
      }
      if (this.currentPage < getAllPage()) {
        int lastPage = this.currentPage + 1;
-       str = str + "<a href='" + path + lastPage + "'>ÏÂÒ»Ò³</a> ";
+       str = str + "<a href='" + path + lastPage + "'>ï¿½ï¿½Ò»Ò³</a> ";
        str = str + "<a href='" + path + getAllPage() + "'>Ä©Ò³</a> ";
      }
-     str = str + "¹²" + getAllPage() + "Ò³ ";
+     str = str + "ï¿½ï¿½" + getAllPage() + "Ò³ ";
      return str;
    }
  }

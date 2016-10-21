@@ -1,9 +1,10 @@
  package com.hansan.fenxiao.service.impl;
  
  import com.hansan.fenxiao.dao.IOrdersDao;
- import com.hansan.fenxiao.entities.Orders;
- import com.hansan.fenxiao.service.IOrdersService;
- import javax.annotation.Resource;
+import com.hansan.fenxiao.entities.Orders;
+import com.hansan.fenxiao.service.IOrdersService;
+
+import javax.annotation.Resource;
  import org.springframework.context.annotation.Scope;
  import org.springframework.stereotype.Service;
  

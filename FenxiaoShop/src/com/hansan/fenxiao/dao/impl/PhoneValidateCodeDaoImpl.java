@@ -1,8 +1,9 @@
  package com.hansan.fenxiao.dao.impl;
  
  import com.hansan.fenxiao.dao.IPhoneValidateCodeDao;
- import com.hansan.fenxiao.entities.PhoneValidateCode;
- import javax.annotation.Resource;
+import com.hansan.fenxiao.entities.PhoneValidateCode;
+
+import javax.annotation.Resource;
  import org.hibernate.Query;
  import org.hibernate.Session;
  import org.hibernate.SessionFactory;

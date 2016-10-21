@@ -1,9 +1,10 @@
  package com.hansan.fenxiao.service.impl;
  
  import com.hansan.fenxiao.dao.IPhoneValidateCodeDao;
- import com.hansan.fenxiao.entities.PhoneValidateCode;
- import com.hansan.fenxiao.service.IPhoneValidateCodeService;
- import javax.annotation.Resource;
+import com.hansan.fenxiao.entities.PhoneValidateCode;
+import com.hansan.fenxiao.service.IPhoneValidateCodeService;
+
+import javax.annotation.Resource;
  import org.springframework.context.annotation.Scope;
  import org.springframework.stereotype.Repository;
  

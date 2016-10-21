@@ -1,7 +1,7 @@
 /*    */ package com.hansan.fenxiao.dao.impl;
-/*    */ 
-/*    */ import com.hansan.fenxiao.dao.IOrdersDao;
-/*    */ import com.hansan.fenxiao.entities.Orders;
+import com.hansan.fenxiao.dao.IOrdersDao;
+import com.hansan.fenxiao.entities.Orders;
+
 /*    */ import javax.annotation.Resource;
 /*    */ import org.hibernate.Query;
 /*    */ import org.hibernate.Session;

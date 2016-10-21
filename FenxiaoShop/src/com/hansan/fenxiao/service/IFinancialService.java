@@ -1,7 +1,8 @@
 package com.hansan.fenxiao.service;
 
-import com.hansan.fenxiao.entities.Financial;
 import java.util.List;
+
+import com.hansan.fenxiao.entities.Financial;
 
 public abstract interface IFinancialService<T extends Financial> extends IBaseService<T>
 {

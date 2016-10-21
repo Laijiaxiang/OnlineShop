@@ -1,7 +1,7 @@
  package com.hansan.fenxiao.action;
  
  import com.hansan.fenxiao.utils.BjuiPage;
- import com.opensymphony.xwork2.ActionSupport;
+import com.opensymphony.xwork2.ActionSupport;
  import freemarker.template.Configuration;
  import javax.servlet.http.HttpServletRequest;
  import javax.servlet.http.HttpServletResponse;

@@ -1,6 +1,5 @@
  package com.hansan.fenxiao.filter;
  
- import com.hansan.fenxiao.entities.Admin;
  import java.io.IOException;
  import javax.servlet.Filter;
  import javax.servlet.FilterChain;
@@ -11,6 +10,8 @@
  import javax.servlet.http.HttpServletRequest;
  import javax.servlet.http.HttpServletResponse;
  import javax.servlet.http.HttpSession;
+
+import com.hansan.fenxiao.entities.Admin;
  
  public class AdminLoginFilter
    implements Filter

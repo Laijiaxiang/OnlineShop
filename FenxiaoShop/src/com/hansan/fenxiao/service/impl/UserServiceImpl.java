@@ -1,9 +1,10 @@
  package com.hansan.fenxiao.service.impl;
  
  import com.hansan.fenxiao.dao.IUserDao;
- import com.hansan.fenxiao.entities.User;
- import com.hansan.fenxiao.service.IUserService;
- import java.util.List;
+import com.hansan.fenxiao.entities.User;
+import com.hansan.fenxiao.service.IUserService;
+
+import java.util.List;
  import javax.annotation.Resource;
  import org.springframework.context.annotation.Scope;
  import org.springframework.stereotype.Service;

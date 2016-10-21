@@ -2,6 +2,7 @@ package com.hansan.fenxiao.dao.impl;
 
 import com.hansan.fenxiao.dao.ICommissionDao;
 import com.hansan.fenxiao.entities.Commission;
+
 import java.util.List;
 import javax.annotation.Resource;
 import org.hibernate.Query;

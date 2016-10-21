@@ -1,7 +1,8 @@
 package com.hansan.fenxiao.dao;
 
-import com.hansan.fenxiao.entities.User;
 import java.util.List;
+
+import com.hansan.fenxiao.entities.User;
 
 public abstract interface IUserDao extends IBaseDao<User>
 {

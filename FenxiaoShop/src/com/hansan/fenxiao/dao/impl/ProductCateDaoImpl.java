@@ -1,8 +1,9 @@
  package com.hansan.fenxiao.dao.impl;
  
  import com.hansan.fenxiao.dao.IProductCateDao;
- import com.hansan.fenxiao.entities.ProductCate;
- import java.util.List;
+import com.hansan.fenxiao.entities.ProductCate;
+
+import java.util.List;
  import org.hibernate.Query;
  import org.springframework.context.annotation.Scope;
  import org.springframework.stereotype.Repository;

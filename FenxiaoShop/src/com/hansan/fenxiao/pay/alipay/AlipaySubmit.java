@@ -1,9 +1,5 @@
  package com.hansan.fenxiao.pay.alipay;
  
- import com.hansan.fenxiao.pay.httpClient.HttpProtocolHandler;
- import com.hansan.fenxiao.pay.httpClient.HttpRequest;
- import com.hansan.fenxiao.pay.httpClient.HttpResponse;
- import com.hansan.fenxiao.pay.httpClient.HttpResultType;
  import java.io.IOException;
  import java.net.MalformedURLException;
  import java.net.URL;
@@ -16,6 +12,11 @@
  import org.dom4j.DocumentException;
  import org.dom4j.Node;
  import org.dom4j.io.SAXReader;
+
+import com.hansan.fenxiao.pay.httpClient.HttpProtocolHandler;
+import com.hansan.fenxiao.pay.httpClient.HttpRequest;
+import com.hansan.fenxiao.pay.httpClient.HttpResponse;
+import com.hansan.fenxiao.pay.httpClient.HttpResultType;
  
  public class AlipaySubmit
  {

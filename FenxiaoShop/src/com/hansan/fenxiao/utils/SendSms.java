@@ -38,7 +38,7 @@ public class SendSms
         result += line;
       }
     } catch (Exception e) {
-      System.out.println("·¢ËÍGETÇëÇó³öÏÖÒì³££¡" + e);
+      System.out.println("ï¿½ï¿½ï¿½ï¿½GETï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì³£ï¿½ï¿½" + e);
       e.printStackTrace();
       try
       {
@@ -64,7 +64,7 @@ public class SendSms
 
   public static void main(String[] args) {
     try {
-      send("²âÊÔ·¢ËÍ¶ÌÐÅ¡¾Ò×ÁªÍ¨¡¿", "18705080053");
+      send("ï¿½ï¿½ï¿½Ô·ï¿½ï¿½Í¶ï¿½ï¿½Å¡ï¿½ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½", "18705080053");
     } catch (IOException e) {
       e.printStackTrace();
     }

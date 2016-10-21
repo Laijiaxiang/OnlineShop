@@ -1,8 +1,9 @@
  package com.hansan.fenxiao.dao.impl;
  
  import com.hansan.fenxiao.dao.IFinancialDao;
- import com.hansan.fenxiao.entities.Financial;
- import java.util.List;
+import com.hansan.fenxiao.entities.Financial;
+
+import java.util.List;
  import javax.annotation.Resource;
  import org.hibernate.Query;
  import org.hibernate.Session;

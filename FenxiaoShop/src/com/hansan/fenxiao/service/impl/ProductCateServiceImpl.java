@@ -1,11 +1,12 @@
  package com.hansan.fenxiao.service.impl;
  
  import com.hansan.fenxiao.dao.IProductCateDao;
- import com.hansan.fenxiao.entities.Product;
- import com.hansan.fenxiao.entities.ProductCate;
- import com.hansan.fenxiao.service.IProductCateService;
- import com.hansan.fenxiao.service.IProductService;
- import java.util.List;
+import com.hansan.fenxiao.entities.Product;
+import com.hansan.fenxiao.entities.ProductCate;
+import com.hansan.fenxiao.service.IProductCateService;
+import com.hansan.fenxiao.service.IProductService;
+
+import java.util.List;
  import javax.annotation.Resource;
  import org.springframework.context.annotation.Scope;
  import org.springframework.stereotype.Repository;

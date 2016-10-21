@@ -1,9 +1,10 @@
  package com.hansan.fenxiao.service.impl;
  
  import com.hansan.fenxiao.dao.IArticleCateDao;
- import com.hansan.fenxiao.entities.ArticleCate;
- import com.hansan.fenxiao.service.IArticleCateService;
- import java.util.List;
+import com.hansan.fenxiao.entities.ArticleCate;
+import com.hansan.fenxiao.service.IArticleCateService;
+
+import java.util.List;
  import javax.annotation.Resource;
  import org.springframework.context.annotation.Scope;
  import org.springframework.stereotype.Repository;

@@ -1,9 +1,10 @@
  package com.hansan.fenxiao.service.impl;
  
  import com.hansan.fenxiao.dao.IBaseDao;
- import com.hansan.fenxiao.entities.BaseBean;
- import com.hansan.fenxiao.service.IBaseService;
- import java.util.List;
+import com.hansan.fenxiao.entities.BaseBean;
+import com.hansan.fenxiao.service.IBaseService;
+
+import java.util.List;
  import javax.annotation.Resource;
  import org.hibernate.Query;
  

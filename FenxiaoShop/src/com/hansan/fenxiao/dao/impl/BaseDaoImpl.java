@@ -1,6 +1,5 @@
 package com.hansan.fenxiao.dao.impl;
 
-import com.hansan.fenxiao.dao.IBaseDao;
 import java.util.List;
 import javax.annotation.Resource;
 import org.apache.commons.logging.Log;
@@ -10,6 +9,8 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Repository;
+
+import com.hansan.fenxiao.dao.IBaseDao;
 
 @Repository("baseDao")
 @Scope("prototype")

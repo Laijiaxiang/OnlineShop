@@ -1,7 +1,8 @@
 package com.hansan.fenxiao.service;
 
-import com.hansan.fenxiao.entities.User;
 import java.util.List;
+
+import com.hansan.fenxiao.entities.User;
 
 public abstract interface IUserService<T extends User> extends IBaseService<T>
 {

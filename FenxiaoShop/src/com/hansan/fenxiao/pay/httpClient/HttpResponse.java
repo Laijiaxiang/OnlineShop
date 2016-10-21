@@ -1,8 +1,9 @@
  package com.hansan.fenxiao.pay.httpClient;
  
- import com.hansan.fenxiao.pay.alipay.AlipayConfig;
  import java.io.UnsupportedEncodingException;
  import org.apache.commons.httpclient.Header;
+
+import com.hansan.fenxiao.pay.alipay.AlipayConfig;
  
  public class HttpResponse
  {

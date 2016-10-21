@@ -1,9 +1,10 @@
  package com.hansan.fenxiao.service.impl;
  
  import com.hansan.fenxiao.dao.IAdminDao;
- import com.hansan.fenxiao.entities.Admin;
- import com.hansan.fenxiao.service.IAdminService;
- import javax.annotation.Resource;
+import com.hansan.fenxiao.entities.Admin;
+import com.hansan.fenxiao.service.IAdminService;
+
+import javax.annotation.Resource;
  import org.springframework.context.annotation.Scope;
  import org.springframework.stereotype.Service;
  

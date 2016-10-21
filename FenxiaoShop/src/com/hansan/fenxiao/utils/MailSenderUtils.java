@@ -2,6 +2,7 @@ package com.hansan.fenxiao.utils;
 
 import com.hansan.fenxiao.entities.Config;
 import com.hansan.fenxiao.service.IConfigService;
+
 import java.util.Properties;
 import javax.mail.Authenticator;
 import javax.mail.Message;
