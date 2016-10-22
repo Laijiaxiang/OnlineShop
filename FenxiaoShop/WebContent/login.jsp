@@ -13,7 +13,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta content="telephone=no" name="format-detection">
 		<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
-	<title>会员登录测试测试测试</title>
+	<title>会员登录测试测试测试2</title>
 	<script type="text/javascript" async="" src="js/aywmq.js"></script>
 	<script async="" src="js/analytics.js"></script>
 	<script type="text/javascript" async="" src="js/da_opt.js"></script>
